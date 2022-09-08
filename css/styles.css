@@ -123,30 +123,6 @@ a {
   margin-right: 50px;
 }
 
-.header-menu-contacts-item:hover .header-menu-contacts-mail-icon,
-.header-menu-contacts-item:focus .header-menu-contacts-mail-icon {
-  fill: #2196f3;
-}
-
-.header-menu-contacts-mail-icon {
-  fill: #757575;
-
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.header-menu-contacts-item:hover .header-menu-contacts-phone-icon,
-.header-menu-contacts-item:focus .header-menu-contacts-phone-icon {
-  fill: #2196f3;
-}
-
-.header-menu-contacts-phone-icon {
-  fill: #757575;
-
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
 .link-header-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -156,6 +132,19 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.link-header-contacts:hover .header-menu-contacts-icon,
+.link-header-contacts:focus .header-menu-contacts-icon {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-menu-contacts-icon {
+  fill: #757575;
+
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .animation:hover,
@@ -437,8 +426,6 @@ a {
 }
 
 .page-main-clients-list-icon {
-  width: 106px;
-  height: 60px;
   fill: #afb1b8;
 }
 
